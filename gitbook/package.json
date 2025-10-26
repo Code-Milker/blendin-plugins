@@ -1,0 +1,15 @@
+{
+  "name": "@blendin/plugin-gitbook",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "typescript": "^4.5.2"
+  },
+  "engines": {
+    "gitbook": ">=3.0.0"
+  }
+}

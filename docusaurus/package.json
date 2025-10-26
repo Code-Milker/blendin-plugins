@@ -1,0 +1,41 @@
+{
+  "name": "@blendin/plugin-docusaurus",
+  "version": "0.0.1",
+  "main": "",
+  "module": "",
+  "browser": "",
+  "exports": {},
+  "types": "",
+  "license": "Apache-2.0",
+  "description": "Blendin Docusaurus Plugin",
+  "keywords": [
+    "Blendin"
+  ],
+  "author": {
+    "name": "Blendin AI",
+    "url": "https://blendin.ai"
+  },
+  "homepage": "https://blendin.ai",
+  "bugs": {
+    "url": "https://blendin.ai"
+  },
+  "files": [],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {},
+  "dependencies": {
+    "@blendin/sdk-js": "^0.0.52",
+    "@blendin/types": "^0.0.13",
+    "fast-glob": "^3.3.2",
+    "uuid": "^10.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@docusaurus/types": "^3.5.2",
+    "typescript": "^5.5.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
